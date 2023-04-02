@@ -1,7 +1,6 @@
 # Virtual-Zoom
-- Based on OpenCV
 
-## Overview
+- Based on OpenCV
 ![](/TestCases/RES.jpg)
 
 ## Installing dependencies:
