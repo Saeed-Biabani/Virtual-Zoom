@@ -71,6 +71,9 @@ while True:
         
         except:
             pass
+        
+    if len(SPECIAL_POINTS) == 2:
+        MakeStable()
 
     cv2.imshow("Virtual Zoom", DrawedFrame)
 
