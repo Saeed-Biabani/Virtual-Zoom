@@ -6,6 +6,17 @@ from sys import argv
 MINDIST = 35
 SPECIAL_POINTS = {}
 
+def MakeStable():
+    x1, y1 = SPECIAL_POINTS["START"]
+    x2, y2 = SPECIAL_POINTS["END"]
+    
+    x_min = min(x1, x2)
+    x_max = max(x1, x2)
+
+    y_min = min(y1, y2)
+    y_max = max(y1, y2)
+
+    FlipedFrame[y_min:y_max, x_min:x_max] = cv2.resize(OriginalIMG, (abs(x2 - x1), abs(y2 - y1)))
 
 fname = argv[1]
 OriginalIMG = cv2.imread(fname)
