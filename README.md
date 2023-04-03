@@ -10,6 +10,9 @@
 
 ## Description:
 
+![](/TestCases/Host.jpg)
+- Keep your both hand like this, And move your hands as you want to resize the image
+- [X] When you release your hands, The image will remain fixed.
 
 ## Run Python file:
 
