@@ -1,4 +1,4 @@
-# Virtual-Zoom
+# Virtual Zoom
 
 - Based on OpenCV
 ![](/TestCases/RES.jpg)
@@ -10,7 +10,7 @@
 
 ## Description:
 
-![](/TestCases/Host.jpg)
+![](/TestCases/Host.png)
 - Keep your both hand like this, And move your hands as you want to resize the image
 - [X] When you release your hands, The image will remain fixed.
 
